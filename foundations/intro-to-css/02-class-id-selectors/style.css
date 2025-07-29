@@ -1,0 +1,22 @@
+div {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.odd {
+  background-color: rgb(238, 164, 155);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#even2 {
+  color: #1b1bbe;
+  font-size: 36px;
+}
+
+#even4 {
+  background-color: hsl(120, 89%, 69%);
+  font-weight: bold;
+}
+
+.fsize24 {
+  font-size: 24px;
+}
