@@ -27,3 +27,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+html {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+*, * :before, * :after {
+box-sizing: inherit;
+}
+*{
+margin: 0;
+padding:0
+}
+
+/* SOLUTION */
+
