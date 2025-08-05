@@ -43,3 +43,53 @@ padding:0
 
 /* SOLUTION */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 16px;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.sidebar>ul>li {
+  margin-bottom: 16px;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
